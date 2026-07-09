@@ -1,2 +1,6 @@
-# flyrank-assignment-1
-FlyRank Frontend AI Engineering Assignment 1
+## Project Structure
+
+- README.md
+- LICENSE
+- .gitignore
+- CLAUDE.md
