@@ -8,7 +8,9 @@ A modern, responsive, and feature-rich **Student Task Manager** built with **Rea
 
 Student Task Manager is a productivity-focused web application designed to help students manage daily assignments, projects, and deadlines. It provides an organized workspace with modern UI/UX, responsive design, and productivity-enhancing features.
 
----
+## 🌐 Live Demo
+
+https://flyrank-internship-ten.vercel.app/
 
 ## ✨ Features
 
