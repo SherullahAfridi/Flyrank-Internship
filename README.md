@@ -1,74 +1,116 @@
-# 📚 Student Task Manager
+# 🚀 FlyRank Internship Capstone Skeleton
 
-A modern, responsive, and feature-rich **Student Task Manager** built with **React + Vite**. This application helps students efficiently organize, prioritize, and manage their academic tasks through a clean and intuitive user interface.
+A modern, responsive, and production-ready **Next.js App Router** project created for the **FlyRank Frontend AI Engineering Internship**.
 
----
-
-## 🚀 Project Overview
-
-Student Task Manager is a productivity-focused web application designed to help students manage daily assignments, projects, and deadlines. It provides an organized workspace with modern UI/UX, responsive design, and productivity-enhancing features.
-
-## 🌐 Live Demo
-
-https://flyrank-internship-ten.vercel.app/
-
-## ✨ Features
-
-- ✅ Add Tasks
-- ✏️ Edit Tasks
-- 🗑️ Delete Tasks
-- ✔️ Mark Tasks as Completed
-- 🔍 Search Tasks
-- 🎯 Filter Tasks
-- 📌 Pin Important Tasks
-- 📊 Dashboard Analytics
-- 🌙 Dark / Light Theme
-- ⚙️ Settings Panel
-- 💾 Local Storage Support
-- 📱 Fully Responsive Design
-- 🔔 Toast Notifications
-- 🎨 Modern SaaS-inspired UI
-- ♿ Accessibility Improvements
-- ⚡ Smooth Animations & Transitions
+This project serves as the foundation (Phase 1 - Foundations) for my capstone application and demonstrates modern frontend development practices including routing, shared layouts, responsive design, Server Components, Tailwind CSS, deployment, and API data fetching.
 
 ---
 
-## 🛠️ Technology Stack
+# 🚀 Project Overview
+
+This repository is the scaffold for my FlyRank Internship Capstone Project.
+
+The goal of this assignment is to establish a professional project structure that will be expanded throughout the internship into a complete AI-powered web application.
+
+The project currently includes:
+
+- Next.js App Router
+- Shared Layout
+- Navigation
+- Responsive Pages
+- Tailwind CSS
+- Health Check Page
+- Vercel Deployment
+- Environment Variable Structure
+
+Future assignments will build additional features on top of this foundation.
+
+---
+
+# 🌐 Live Demo
+
+Production
+
+https://flyrank-internship-lmz2.vercel.app/
+
+GitHub Repository
+
+https://github.com/SherullahAfridi/Flyrank-Internship
+
+---
+
+# ✨ Current Features
+
+- ✅ Next.js 16 App Router
+- ✅ React 19
+- ✅ TypeScript
+- ✅ Tailwind CSS
+- ✅ Shared Root Layout
+- ✅ Responsive Navigation Bar
+- ✅ Footer Component
+- ✅ Home Page
+- ✅ Dashboard Page
+- ✅ About Page
+- ✅ Contact Page
+- ✅ Health Check Page
+- ✅ API Data Fetching
+- ✅ Server Components
+- ✅ Production Deployment on Vercel
+- ✅ Environment Variable Template (.env.example)
+- ✅ GitHub Integration
+- ✅ Mobile Responsive Layout
+
+---
+
+# 🛠️ Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
-| React | Frontend Framework |
-| Vite | Development & Build Tool |
-| JavaScript (ES6+) | Programming Language |
-| CSS3 | Styling |
-| Local Storage | Data Persistence |
-| React Hooks | State Management |
+| Next.js 16 | React Framework |
+| React 19 | UI Library |
+| TypeScript | Programming Language |
+| Tailwind CSS | Styling |
+| App Router | Routing |
+| Vercel | Deployment |
+| Git | Version Control |
+| GitHub | Source Code Hosting |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
-Student-Task-Manager
+Flyrank-Internship
 │
 ├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── styles/
-│   ├── utils/
-│   ├── App.jsx
-│   └── main.jsx
 │
-├── README.md
+├── src/
+│   ├── app/
+│   │   ├── about/
+│   │   ├── contact/
+│   │   ├── dashboard/
+│   │   ├── health/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   │
+│   └── components/
+│       ├── Navbar.tsx
+│       └── Footer.tsx
+│
+├── .env.example
+├── .gitignore
+├── next.config.ts
 ├── package.json
-├── vite.config.js
-└── .gitignore
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository
 
@@ -76,7 +118,7 @@ Clone the repository
 git clone https://github.com/SherullahAfridi/Flyrank-Internship.git
 ```
 
-Navigate to the project
+Navigate into the project
 
 ```bash
 cd Flyrank-Internship
@@ -100,98 +142,165 @@ Build for production
 npm run build
 ```
 
-Preview the production build
+Start the production server
 
 ```bash
-npm run preview
+npm start
 ```
-
-## 📸 Screenshots
-
-Add screenshots here before submission.
-
-- Dashboard
-- Add Task Modal
-- Analytics
-- Search & Filter
-- Dark Theme
-- Light Theme
-- Settings Panel
-- Mobile View
 
 ---
 
-## 🎯 Learning Outcomes
+# 📄 Available Routes
 
-Through this project I learned:
+| Route | Description |
+|--------|-------------|
+| / | Home Page |
+| /about | About Page |
+| /dashboard | Dashboard |
+| /contact | Contact Page |
+| /health | Health Check (API Fetch Example) |
 
-- React component architecture
-- React Hooks
-- State management
-- Local Storage
-- Responsive UI Design
-- Accessibility
-- Modern UI/UX principles
-- Professional project structure
-- Git & GitHub workflow
+---
+
+# ❤️ Health Check Page
+
+The Health Check page demonstrates server-side data fetching using Next.js Server Components.
+
+It fetches data from:
+
+https://jsonplaceholder.typicode.com/todos/1
+
+This verifies that:
+
+- API fetching works
+- Server Components work correctly
+- The application renders dynamic content successfully
+
+---
+
+# 📸 Screenshots
+
+Screenshots will be added during future development.
+
+- Home
+- Dashboard
+- About
+- Contact
+- Health Check
+
+---
+
+# 🎯 Assignment Objectives Completed
+
+✔ Next.js App Router
+
+✔ Shared Root Layout
+
+✔ Navigation
+
+✔ Placeholder Pages
+
+✔ Responsive Design
+
+✔ Tailwind CSS
+
+✔ Server Components
+
+✔ Health Check Page
+
+✔ API Data Fetching
+
+✔ Environment Variable Structure
+
+✔ Production Deployment
+
+✔ GitHub Repository
+
+---
+
+# 🎯 Learning Outcomes
+
+Through this assignment I learned:
+
+- Next.js App Router
+- Server Components
+- Client Components
+- Shared Layouts
+- File-Based Routing
+- Tailwind CSS
+- Responsive Design
+- Production Deployment with Vercel
+- GitHub Workflow
+- API Data Fetching
+- Environment Variables
 - AI-assisted software development
 
 ---
 
-## 🤖 AI-Assisted Development
+# 🤖 AI-Assisted Development
 
 This project was developed with AI assistance throughout the development lifecycle.
 
 AI was used to:
 
-- Generate component structure
-- Improve UI/UX
-- Refactor code
-- Suggest React best practices
+- Scaffold the project
+- Build routing structure
+- Generate layouts
 - Improve accessibility
-- Enhance responsiveness
+- Refactor code
 - Generate documentation
-- Optimize project organization
+- Improve responsiveness
+- Troubleshoot deployment issues
+- Debug build errors
+- Improve project organization
 
-All generated code was reviewed, tested, and integrated manually.
+All AI-generated code was reviewed, tested, and integrated manually.
 
 ---
 
-## 🛠️ Manual Improvements
+# 🛠️ Manual Improvements
 
-After reviewing AI-generated code, several manual improvements were performed:
+After reviewing AI-generated suggestions, several manual improvements were made:
 
-- Improved spacing and alignment
-- Fixed responsive layout issues
+- Configured Next.js App Router
+- Added shared Navbar and Footer
 - Organized folder structure
-- Refined UI consistency
-- Reviewed accessibility
-- Tested all application features
-- Cleaned unnecessary code
-- Improved documentation
+- Improved responsive layout
+- Fixed deployment issues
+- Configured Tailwind CSS
+- Added Health Check page
+- Added environment variable template
+- Cleaned project structure
+- Updated documentation
 
 ---
 
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 
-- Calendar View
-- Task Categories
-- Drag & Drop
-- Due Date Reminders
-- Cloud Database Integration
-- User Authentication
-- Team Collaboration
-- Export / Import Tasks
+This repository will continue evolving throughout the FlyRank Internship.
+
+Planned additions include:
+
+- Authentication
+- Database Integration
+- AI Features
+- User Profiles
+- Dashboard Widgets
+- Analytics
+- Testing
+- Performance Optimization
+- Accessibility Improvements
+- Production-ready UI Components
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Sher Ullah**
 
@@ -199,9 +308,10 @@ Software Engineering Student
 
 City University Peshawar
 
-GitHub:
+GitHub
+
 https://github.com/SherullahAfridi
 
 ---
 
-⭐ If you like this project, consider giving it a star.
+⭐ This repository represents my ongoing capstone project for the **FlyRank Frontend AI Engineering Internship** and will continue to evolve throughout the program.
